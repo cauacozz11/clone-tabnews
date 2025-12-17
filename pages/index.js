@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>Quero deixar bem claro que amo minha namorada, Maria Eduarda!</h1>
+    return <h1>Estou fazendo meus primeiros deploys</h1>
 }
 
 export default Home;
