@@ -1,7 +1,7 @@
 function Home() {
-    return <h1>Estou fazendo meus primeiros deploys</h1>
+    return <h1>Seja Bem-Vindo ao meu primeiro Deploy!</h1>
 }
 
-export default Home;
 
+export default Home;
 
