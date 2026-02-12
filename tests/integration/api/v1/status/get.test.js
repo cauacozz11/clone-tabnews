@@ -1,6 +1,4 @@
-const alunos = require("../../../../../models/calculadora.js");
-
-test("GET to /api/v1/status should return 200", () => {
-  const resultado = alunos.login("cauã");
-  expect(resultado).toBe("Esse usuário está cadastrado em nosso sistema");
+test("GET to /api/v1/status should return 200", async () => {
+  const response = await fetch("http://localhost:3000/api/v1/status");
+  expect(response.status).toBe(200);
 });
